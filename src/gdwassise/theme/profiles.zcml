@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Gites de Wallonie :: Assise du Tourisme terroir"
+      directory="profiles/default"
+      description="Installs profile for Gites de Wallonie :: Assise du Tourisme terroir"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

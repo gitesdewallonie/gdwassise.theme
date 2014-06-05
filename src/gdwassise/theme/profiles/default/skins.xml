@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object name="portal_skins"
+        allow_any="False"
+        cookie_persistence="False"
+        default_skin="Gites de Wallonie :: Assise du Tourisme terroir">
+
+    <object name="gdwassise_theme_images"
+            meta_type="Filesystem Directory View"
+            directory="gdwassise.theme:skins/gdwassise_theme_images"/>
+
+    <skin-path name="Gites de Wallonie :: Assise du Tourisme terroir"
+               based-on="Sunburst Theme">
+        <layer name="gdwassise_theme_images"
+               insert-after="custom"/>
+
+    </skin-path>
+
+</object>
