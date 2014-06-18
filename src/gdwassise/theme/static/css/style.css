@@ -1,21 +1,276 @@
-/*
-Gites de Wallonie :: Assise du Tourisme terroir CSS BY AFFINITIC
-*/
+@font-face {
+font-family: 'mondaregular';
+src: url('../font/monda-regular-webfont.eot');
+src: url('../font/monda-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../font/monda-regular-webfont.woff') format('woff'),
+     url('../font/monda-regular-webfont.ttf') format('truetype'),
+     url('../font/monda-regular-webfont.svg#mondaregular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
 
-#left-column{
+html{
+background: rgb(181,189,200); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(181,189,200,1)), color-stop(36%,rgba(130,140,149,1)), color-stop(100%,rgba(40,52,59,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+background-attachment:fixed;
+}
+
+body{
+font-family:'mondaregular', verdana, arial, helvetica, sans-serif;
+font-size:11pt;
+color:#777;
+margin:0px;
+background-color:transparent !important;
+background-image:url(images/deco_orange.png);
+background-attachment:fixed;
+background-repeat:repeat-x;
+}
+
+
+.stop-float{
+clear:both;
+}
+
+.image-float-left{
 float:left;
-width:20%;
-margin-left:20px;
+margin:0px 7px 7px 0px;
 }
 
-#main-column{
-float:right;
-width:75%;
-margin-right:20px;
-}
-
-#main-column-large {
-float:none;
-width:95%;
+#wrapper{
+width:1024px;
+min-height:700px;
 margin:auto;
+background-color:transparent;
+border-left:2px solid #555;
+border-right:2px solid #555;
+box-shadow:8px 0px 16px rgba(50,50,50,0.7),
+           -8px 0px 16px rgba(50,50,50,0.7);
 }
+
+header{
+height:50px;
+padding:0px 1em;
+color:#fff;
+background: rgb(125,126,125); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+
+#theme-logo{
+float:left;
+margin-left:15px;
+margin-top:15px;
+font-family:'mondaregular';
+}
+
+#theme-logo a{
+text-decoration:none;
+color:#fff !important;
+}
+
+
+#theme-site-actions{
+position:relative;
+left:100px;
+top:15px;
+}
+
+#theme-site-actions li{
+display:inline;
+margin:0px 6px;
+}
+
+#theme-site-actions a{
+font-size:0.8em;
+text-decoration:none;
+color:#ddd;
+}
+
+#theme-site-actions a:hover{
+color:#da6909;
+}
+
+#theme-personal-tools{
+position:relative;
+top:-36px;
+}
+
+#deco-sup{
+height:400px;
+background-image:url(../images/deco_sup.jpg);
+background-repeat:no-repeat;
+margin-bottom:3px;
+}
+
+#menu-sup{
+height:30px;
+padding:5px;
+background: rgb(255,197,120); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,197,120,1) 0%, rgba(251,157,35,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,197,120,1)), color-stop(100%,rgba(251,157,35,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,197,120,1) 0%,rgba(251,157,35,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,197,120,1) 0%,rgba(251,157,35,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,197,120,1) 0%,rgba(251,157,35,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,197,120,1) 0%,rgba(251,157,35,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', endColorstr='#fb9d23',GradientType=0 ); /* IE6-9 */
+}
+
+#menu-sup ul{
+position:relative;
+left:80px;
+margin:0;
+width:70%;
+}
+
+#menu-sup li{
+display:inline;
+margin:0px 10px;
+}
+
+/*
+#menu-sup li:first-child{
+border-left:none;
+}
+*/
+#menu-sup li a{
+display:inline-block;
+width:100px;
+height:30px;
+line-height:30px;
+font-size:0.8em;
+text-decoration:none;
+text-align:center;
+color:#fff;
+background-color:#ea5507;
+border:1px solid rgba(200,200,200,0.5);
+border-radius:18px;
+transition : color 500ms ease-out,
+             background 500ms ease-out,
+             border 500ms ease-out;
+}
+
+#menu-sup li a:hover{
+text-decoration:underscor;
+background-color:#feccb1;
+color:#222;
+}
+
+#main-content{
+margin-top:3px;
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+#main-column-large{
+min-height:300px;
+padding:20px;
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+/*
+background-image:url(../images/lecoq.png);
+background-repeat:no-repeat;
+background-position:right bottom;
+*/
+}
+
+#content-text h1{
+font-size:1.8em;
+padding-bottom:5px;
+border-bottom:1px dotted rgba(50,50,50,0.3);
+}
+
+footer{
+margin-top:3px;
+background: -moz-linear-gradient(top,  rgba(162,157,139,0.74) 0%, rgba(156,151,128,0.74) 51%, rgba(113,108,86,0.74) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(162,157,139,0.74)), color-stop(51%,rgba(156,151,128,0.74)), color-stop(100%,rgba(113,108,86,0.74))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(162,157,139,0.74) 0%,rgba(156,151,128,0.74) 51%,rgba(113,108,86,0.74) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(162,157,139,0.74) 0%,rgba(156,151,128,0.74) 51%,rgba(113,108,86,0.74) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(162,157,139,0.74) 0%,rgba(156,151,128,0.74) 51%,rgba(113,108,86,0.74) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(162,157,139,0.74) 0%,rgba(156,151,128,0.74) 51%,rgba(113,108,86,0.74) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bda29d8b', endColorstr='#bd716c56',GradientType=0 ); /* IE6-9 */
+}
+
+#coordonnee{
+float:left;
+width:290px;
+min-height:80px;
+color:#eee;
+font-size:0.8em;
+padding:5px;
+text-align:center;
+border-radius:0px 0px 0px 18px;
+}
+
+#menu-inferieur{
+float:right;
+width:700px;
+min-height:80px;
+border-radius:0px 0px 18px 0px;
+padding:5px;
+}
+
+#menu-inferieur ul{
+margin:auto;
+margin-top:27px;
+width:70%;
+}
+
+#menu-inferieur li{
+display:inline;
+font-size:0.8em;
+border-left:1px solid #444;
+padding:3px 10px;
+}
+
+#menu-inferieur li:first-child{
+border-left:none;
+}
+
+#menu-inferieur li a{
+text-decoration:none;
+color:#222;
+}
+
+#menu-inferieur li a:hover{
+text-decoration:underscor;
+color:#fff;
+}
+
+#partenaire{
+background-color:#000;
+}
+
+#eurogite, #feder, #wallonie-tourisme, #wallonie-bruxelles-tourisme {
+color: #D2D2D2;
+float: left;
+font-family: verdana,sans-serif;
+font-size: 9px;
+margin: 10px 0px 0px 80px;
+text-align: center;
+width: 150px;
+}
+
