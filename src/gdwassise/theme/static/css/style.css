@@ -112,12 +112,13 @@ top:-36px;
 height:400px;
 background-image:url(../images/deco_sup.jpg);
 background-repeat:no-repeat;
-margin-bottom:3px;
 }
 
 #menu-sup{
 height:30px;
 padding:5px;
+border-top:1px solid #666;
+border-bottom:1px solid #666;
 background: rgb(255,197,120); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(255,197,120,1) 0%, rgba(251,157,35,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,197,120,1)), color-stop(100%,rgba(251,157,35,1))); /* Chrome,Safari4+ */
@@ -131,6 +132,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', end
 #menu-sup ul{
 position:relative;
 left:80px;
+top:-1px;
 margin:0;
 width:70%;
 }
@@ -170,6 +172,7 @@ color:#222;
 
 #main-content{
 margin-top:3px;
+padding:0em 2em 2em 2em;
 background: rgb(255,255,255); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
@@ -206,7 +209,6 @@ border-bottom:1px dotted rgba(50,50,50,0.3);
 }
 
 footer{
-margin-top:3px;
 background: -moz-linear-gradient(top,  rgba(162,157,139,0.74) 0%, rgba(156,151,128,0.74) 51%, rgba(113,108,86,0.74) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(162,157,139,0.74)), color-stop(51%,rgba(156,151,128,0.74)), color-stop(100%,rgba(113,108,86,0.74))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top,  rgba(162,157,139,0.74) 0%,rgba(156,151,128,0.74) 51%,rgba(113,108,86,0.74) 100%); /* Chrome10+,Safari5.1+ */
