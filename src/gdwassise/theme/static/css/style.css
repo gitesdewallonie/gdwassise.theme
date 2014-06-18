@@ -225,6 +225,17 @@ text-align:center;
 border-radius:0px 0px 0px 18px;
 }
 
+#coordonnee a{
+text-decoration:none;
+color:#f8c878;
+}
+
+#coordonnee a:hover{
+text-decoration:underline;
+color:#fff;
+}
+
+
 #menu-inferieur{
 float:right;
 width:700px;
