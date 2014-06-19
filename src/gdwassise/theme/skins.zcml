@@ -2,6 +2,7 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:cmf="http://namespaces.zope.org/cmf">
 
-   <cmf:registerDirectory name="gdwassise_theme_images"/>
+   <cmf:registerDirectory name="gdwassise_theme_images" />
+   <cmf:registerDirectory name="gdwassise_theme_templates" />
 
 </configure>

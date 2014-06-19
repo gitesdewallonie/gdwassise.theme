@@ -12,6 +12,8 @@
                based-on="Sunburst Theme">
         <layer name="gdwassise_theme_images"
                insert-after="custom"/>
+        <layer name="gdwassise_theme_templates"
+               insert-after="gdwassise_theme_images"/>
 
     </skin-path>
 
