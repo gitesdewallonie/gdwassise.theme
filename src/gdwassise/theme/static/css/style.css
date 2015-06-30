@@ -135,10 +135,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', end
 
 #menu-sup ul{
 position:relative;
-left:80px;
+left:5px;
 top:-1px;
 margin:0;
-width:910px;
+width:100%;
 }
 
 #menu-sup li{
@@ -252,8 +252,8 @@ padding:5px;
 }
 
 #menu-inferieur ul{
-margin:27px 0px 0px 130px;
-width:580px;
+margin:27px 0px 0px 40px;
+width:650px;
 }
 
 #menu-inferieur li{
