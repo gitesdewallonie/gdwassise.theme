@@ -248,14 +248,12 @@ color:#fff;
 float:right;
 width:700px;
 min-height:80px;
-border-radius:0px 0px 18px 0px;
 padding:5px;
 }
 
 #menu-inferieur ul{
-margin:auto;
-margin-top:27px;
-width:70%;
+margin:27px 0px 0px 200px;
+width:500px;
 }
 
 #menu-inferieur li{
