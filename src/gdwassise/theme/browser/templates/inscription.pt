@@ -12,21 +12,19 @@
 <div metal:fill-slot="main">
     <h1>Inscription</h1>
     <a title="Logiciel billetterie en ligne"
-       href="http://www.weezevent.com//?c=sys_widget"
+       href="https://www.weezevent.com//?c=sys_widget"
        class="weezevent-widget-integration"
        target="_blank"
-       data-src="https://www.weezevent.com/widget_billeterie.php?id_evenement=121561&amp;code=74658&amp;resize=1&amp;width_auto=1&amp;color_primary=00AEEF"
+       data-src="https://www.weezevent.com/widget_billeterie.php?id_evenement=184564&lg_billetterie=1&code=76983&resize=1&width_auto=1&color_primary=00AEEF"
        data-width="650"
        data-height="600"
-       data-id="121561"
+       data-id="184564"
        data-resize="1"
        data-width_auto="1"
        data-noscroll="0"
        data-nopb="0">Billetterie Weezevent</a>
-
-    <script type="text/javascript"
-            src="https://www.weezevent.com/js/widget/min/widget.min.js"></script>
-
+       <script type="text/javascript"
+               src="https://www.weezevent.com/js/widget/min/widget.min.js"></script>
 </div><!-- div metal-->
 </body>
 </html>
