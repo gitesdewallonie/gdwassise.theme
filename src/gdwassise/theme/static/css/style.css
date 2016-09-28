@@ -301,5 +301,17 @@ border:1px solid #f00;
 #main-column{
 }
 
+#content a{
+border-bottom:0px solid #fff !important;
+color: #205c90;
+}
+
+#content a:hover{
+color:#ea5507 !important;
+}
+
+
+
+
 
 
