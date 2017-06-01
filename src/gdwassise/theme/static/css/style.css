@@ -151,6 +151,7 @@ margin:0px 10px;
 border-left:none;
 }
 */
+.bouton,
 #menu-sup li a{
 display:inline-block;
 width:100px;
@@ -167,7 +168,7 @@ transition : color 500ms ease-out,
              background 500ms ease-out,
              border 500ms ease-out;
 }
-
+.bouton:hover,
 #menu-sup li a:hover{
 text-decoration:underscor;
 background-color:#feccb1;
