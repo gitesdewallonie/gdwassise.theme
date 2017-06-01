@@ -12,7 +12,7 @@
 <div metal:fill-slot="main">
     <h1>Inscription</h1>
     <a title="Logiciel billetterie en ligne"
-       href="https://www.weezevent.com//?..." 
+       href="https://www.weezevent.com/widget_billeterie.php?id_evenement=256441&lg_billetterie=1&code=55134&resize=1&width_auto=1&color_primary=00AEEF" 
        class="weezevent-widget-integration"
        target="_blank" 
        data-src="https://www.weezevent.com/widget_billeterie.php?..." 
