@@ -282,14 +282,28 @@ color:#fff;
 background-color:#000;
 }
 
-#eurogite, #feder, #wallonie-tourisme, #wallonie-bruxelles-tourisme {
+#eurogite,
+#feder,
+#wallonie-tourisme,
+#wallonie-bruxelles-tourisme {
 color: #D2D2D2;
 float: left;
 font-family: verdana,sans-serif;
 font-size: 9px;
-margin: 10px 0px 0px 80px;
 text-align: center;
 width: 150px;
+}
+#eurogite{
+margin: 10px 0px 0px 80px;
+}
+#feder{
+margin: 10px 0px 0px 80px;
+}
+#wallonie-tourisme{
+margin: 22px 0px 0px 80px;
+}
+#wallonie-bruxelles-tourisme{
+margin: 22px 0px 0px 80px;
 }
 
 
