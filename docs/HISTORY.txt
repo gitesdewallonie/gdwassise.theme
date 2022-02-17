@@ -4,7 +4,8 @@ Changelog
 0.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Update banner image
+  [vpiret]
 
 
 0.1 (2022-01-13)
