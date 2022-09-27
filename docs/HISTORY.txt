@@ -4,7 +4,8 @@ Changelog
 0.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Change banner site
+  [Julien]
 
 
 0.2 (2022-02-17)
