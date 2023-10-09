@@ -4,7 +4,8 @@ Changelog
 0.4 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Change banner site [GDW-682]
+  [Julien]
 
 
 0.3 (2022-09-27)
