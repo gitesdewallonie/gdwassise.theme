@@ -4,7 +4,8 @@ Changelog
 0.5 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Fix dec-sup height [GDW-682]
+  [Julien]
 
 
 0.4 (2023-10-09)
